@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
 	if(react.includes("boss") ||
-     react.includes("virat") || 
+     react.includes("salman") || 
 react.includes("owner")) {
 		var msg = {
 				body: "★𝗢𝘄𝗻𝗲𝗿 + ❤️...𝗦𝗔𝗟𝗠𝗔𝗡...❤️ ● ──────────────── ●𝗦𝗔𝗟𝗠𝗔𝗡 ● ──────────────── ●𝐎𝐰𝐧𝐞𝐫 ➻❤️....𝗦𝗔𝗟𝗠𝗔𝗡....❤️",attachment: fs.createReadStream(__dirname + `/noprefix/salman.jpg`)
